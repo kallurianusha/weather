@@ -1,0 +1,6 @@
+import resource
+from .models import whole_city
+class cityResources(resource.ModelResource):
+    
+    class Meta:
+        model=whole_city
